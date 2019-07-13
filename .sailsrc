@@ -1,10 +1,4 @@
 {
-  "hooks": {
-    "grunt": false
-  },
-  "paths": {
-    "public": "www"
-  },
   "generators": {
     "modules": {}
   },
