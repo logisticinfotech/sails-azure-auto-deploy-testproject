@@ -120,11 +120,9 @@ node_modules
 .netbeans
 nbproject
 .idea
-*.iml
-.vscode
 .node_history
 dump.rdb
-
+www
 npm-debug.log
 lib-cov
 *.seed
@@ -132,5 +130,8 @@ lib-cov
 *.out
 *.pid
 
+.sass-cache
 
+.history
+package-lock.json
 www
