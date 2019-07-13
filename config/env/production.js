@@ -47,7 +47,7 @@ module.exports = {
     *                                                                          *
     ***************************************************************************/
     default: {
-      adapter: require('sails-mysql'),
+      adapter: 'sails-mysql',
       url: 'mysql://sailstestproject@mysql-sais-testproject:testProject@123@mysql-sais-testproject.mysql.database.azure.com:3306/sailstestdb',
     
       // adapter: 'sails-mysql',
