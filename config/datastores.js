@@ -50,10 +50,8 @@ module.exports.datastores = {
     ***************************************************************************/
     // adapter: 'sails-mysql',
     // url: 'mysql://user:password@host:port/database',
-    default: {
-      adapter: require('sails-mysql'),
-      url: 'mysql://sailstestproject@mysql-sais-testproject:testProject@123@mysql-sais-testproject.mysql.database.azure.com:3306/sailstestdb',
-    }
+    adapter: require('sails-mysql'),
+    url: 'mysql://sailstestproject@mysql-sais-testproject:testProject@123@mysql-sais-testproject.mysql.database.azure.com:3306/sailstestdb',
   },
 
 
